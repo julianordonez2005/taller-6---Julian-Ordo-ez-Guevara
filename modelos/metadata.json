@@ -1,0 +1,86 @@
+{
+  "variables": [
+    "Weight_in_gms",
+    "Cost_of_the_Product",
+    "Discount_offered",
+    "Customer_care_calls",
+    "Prior_purchases"
+  ],
+  "n_clusters": 4,
+  "n_vecinos": 5,
+  "silueta": 0.3619,
+  "exactitud_knn": 0.9836,
+  "tasa_retraso_global": 0.5967,
+  "rangos": {
+    "Weight_in_gms": [
+      1001.0,
+      7846.0
+    ],
+    "Cost_of_the_Product": [
+      96.0,
+      310.0
+    ],
+    "Discount_offered": [
+      1.0,
+      65.0
+    ],
+    "Customer_care_calls": [
+      2.0,
+      7.0
+    ],
+    "Prior_purchases": [
+      2.0,
+      10.0
+    ]
+  },
+  "perfiles": {
+    "0": {
+      "n_envios": 2199,
+      "porcentaje": 20.0,
+      "tasa_retraso": 0.9959,
+      "centroide": {
+        "Weight_in_gms": 2215.6,
+        "Cost_of_the_Product": 188.6,
+        "Discount_offered": 41.0,
+        "Customer_care_calls": 3.7,
+        "Prior_purchases": 3.0
+      }
+    },
+    "1": {
+      "n_envios": 5906,
+      "porcentaje": 53.7,
+      "tasa_retraso": 0.4817,
+      "centroide": {
+        "Weight_in_gms": 4761.8,
+        "Cost_of_the_Product": 201.9,
+        "Discount_offered": 5.9,
+        "Customer_care_calls": 3.7,
+        "Prior_purchases": 2.9
+      }
+    },
+    "2": {
+      "n_envios": 2221,
+      "porcentaje": 20.2,
+      "tasa_retraso": 0.5155,
+      "centroide": {
+        "Weight_in_gms": 1801.0,
+        "Cost_of_the_Product": 256.1,
+        "Discount_offered": 6.8,
+        "Customer_care_calls": 5.4,
+        "Prior_purchases": 4.5
+      }
+    },
+    "3": {
+      "n_envios": 673,
+      "porcentaje": 6.1,
+      "tasa_retraso": 0.5691,
+      "centroide": {
+        "Weight_in_gms": 4422.6,
+        "Cost_of_the_Product": 201.8,
+        "Discount_offered": 10.6,
+        "Customer_care_calls": 3.8,
+        "Prior_purchases": 7.6
+      }
+    }
+  }
+}

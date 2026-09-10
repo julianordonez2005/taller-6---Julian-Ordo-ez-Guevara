@@ -1,0 +1,79 @@
+{
+  "dataset": "Iris Plant (sklearn.datasets.load_iris)",
+  "variables": [
+    "sepal length (cm)",
+    "sepal width (cm)",
+    "petal length (cm)",
+    "petal width (cm)"
+  ],
+  "n_clusters": 3,
+  "n_vecinos": 5,
+  "silueta": 0.4599,
+  "ari_vs_especies": 0.6201,
+  "exactitud_knn": 0.9556,
+  "f1_macro_knn": 0.9554,
+  "rangos": {
+    "sepal length (cm)": [
+      4.3,
+      7.9
+    ],
+    "sepal width (cm)": [
+      2.0,
+      4.4
+    ],
+    "petal length (cm)": [
+      1.0,
+      6.9
+    ],
+    "petal width (cm)": [
+      0.1,
+      2.5
+    ]
+  },
+  "perfiles": {
+    "0": {
+      "n_muestras": 53,
+      "centroide": {
+        "sepal length (cm)": 5.8,
+        "sepal width (cm)": 2.67,
+        "petal length (cm)": 4.37,
+        "petal width (cm)": 1.41
+      },
+      "especie": "versicolor",
+      "pureza": 0.736,
+      "composicion": {
+        "versicolor": 39,
+        "virginica": 14
+      }
+    },
+    "1": {
+      "n_muestras": 50,
+      "centroide": {
+        "sepal length (cm)": 5.01,
+        "sepal width (cm)": 3.43,
+        "petal length (cm)": 1.46,
+        "petal width (cm)": 0.25
+      },
+      "especie": "setosa",
+      "pureza": 1.0,
+      "composicion": {
+        "setosa": 50
+      }
+    },
+    "2": {
+      "n_muestras": 47,
+      "centroide": {
+        "sepal length (cm)": 6.78,
+        "sepal width (cm)": 3.1,
+        "petal length (cm)": 5.51,
+        "petal width (cm)": 1.97
+      },
+      "especie": "virginica",
+      "pureza": 0.766,
+      "composicion": {
+        "versicolor": 11,
+        "virginica": 36
+      }
+    }
+  }
+}
